@@ -75,3 +75,11 @@ Design updates are welcome via Pull Requests or by contacting the authors. When 
 ## Citation
 
 If this model is used in research or publications, please cite the associated technical report or software record (to be added). If no report is available yet, consider citing the repository itself (release tag and commit hash) and the primary sources referenced in the code comments.
+
+
+author contacts: 
+Alessandro Bianchini: 	alessandro.bianchini@unifi.it
+Francesco Papi: 		francesco.superchi@unifi.it
+
+Copyright [2026] [Università degli Studi di Firenze]
+

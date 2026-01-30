@@ -3,7 +3,7 @@
 
 MIT License
 
-Copyright (c) 2026 UNIFI Wind Energy
+Copyright (c) 2026 Università degli Studi di Firenze
 
 Created: 2026-01-30
 
@@ -299,6 +299,7 @@ if __name__ == "__main__":
     ax = plot_alk_efficiency_vs_load()
     ax.figure.tight_layout()
     plt.show()
+
 
 
 

@@ -1,5 +1,5 @@
 # ALK-electrolyzer-model_UNIFI
-Main repository for a physics-based, parametric model of an alkaline (ALK) water electrolyzer cell developed by the University of Florence (Italy).
+Main repository for a physics-based, parametric model of an alkaline (ALK) water electrolyzer cell developed in Python by the University of Florence (Italy).
 This repository provides a lightweight Python implementation to generate ALK cell performance curves and efficiency trends as a function of operating conditions. The model combines standard electrochemical relationships (reversible voltage, activation losses, ohmic losses) with literature-based correlations and a temperature-dependent Faraday efficiency fit. References are embedded directly in the source code as DOI links in the comments.
 
 ---

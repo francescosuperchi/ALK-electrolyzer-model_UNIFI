@@ -114,8 +114,8 @@ class ElectroCellALK(BaseElectroCell):
     cond_Ni: float = 14.6e6                 # [S/m]
 
     # Empirical resistance contribution  https://doi.org/10.1016/S0360-3199(97)00069-4
-    henao_prefactor: float = 0.37
-    henao_temp_coeff: float = -0.011
+    henao_prefactor: float = 0.4
+    henao_temp_coeff: float = -0.01
 
     # Faraday eff params https://doi.org/10.3390/en13184792
     rF1: float = 0.05
@@ -230,6 +230,7 @@ def _solve_power_to_current_density(cell: BaseElectroCell, p_cell: float) -> Tup
     j = float(np.interp(p_cell, p_sorted, j_sorted))
     v_cell = float(np.interp(j, cell.arCurrentDensity, cell.arV_cell))
     return j, v_cell
+
 
 
 

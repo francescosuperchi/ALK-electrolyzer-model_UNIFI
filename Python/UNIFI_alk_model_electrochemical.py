@@ -3,7 +3,7 @@
 
 MIT License
 
-Copyright (c) 2026 UNIFI Wind Energy
+Copyright (c) 2026 Università degli Studi di Firenze
 
 Created: 2026-01-30
 
@@ -230,6 +230,7 @@ def _solve_power_to_current_density(cell: BaseElectroCell, p_cell: float) -> Tup
     j = float(np.interp(p_cell, p_sorted, j_sorted))
     v_cell = float(np.interp(j, cell.arCurrentDensity, cell.arV_cell))
     return j, v_cell
+
 
 
 
